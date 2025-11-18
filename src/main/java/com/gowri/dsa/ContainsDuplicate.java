@@ -3,6 +3,9 @@ package com.gowri.dsa;
 import java.util.HashSet;
 import java.util.Set;
 
+//Time Complexity: O(n) since we traverse the array only once
+//Space Complexity: O(n) since the hash set can grow upto n size in worst case
+
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
 
@@ -22,6 +25,5 @@ public class ContainsDuplicate {
         }
 
         return false;
-        
     }
 }

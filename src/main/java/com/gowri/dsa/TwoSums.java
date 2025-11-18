@@ -3,10 +3,8 @@ package com.gowri.dsa;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Hello world!
- *
- */
+// Time Complexity: O(n) since we traverse the array only once
+// Space Complexity: O(n) since the hash map can grow upto n size in worst case
 public class TwoSums 
 {
     public int[] twoSum(int[] nums, int target) {
