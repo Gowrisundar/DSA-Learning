@@ -1,3 +1,4 @@
+package com.gowri.dsa;
 public class ValidAnagramOptimal {
 
     //Time Complexity: O(n) since we traverse the strings only once
