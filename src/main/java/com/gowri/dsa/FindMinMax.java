@@ -1,5 +1,7 @@
 package com.gowri.dsa;
 
+//Time Complexity: 0(n) due to traversing the array n times.
+//Space Complexity:  O(1) since we are using only constant space.
 public class FindMinMax {
 
     public static int[] findMinMax(int[] nums) { 
